@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  padding: 50px;
+  background: #c9b43d;
+}
+section {
+  height: 80vh;
+  display: flex;
+  background: #c9b43d;
+}
+i {
+  position: relative;
+  height: 400px;
+  width: 450px;
+  margin: 0 auto;
+  font-size: 0.9rem;
+  line-height: 0.7;
+  letter-spacing: -0.05;
+  background: url("img/hoorueen.jpg") no-repeat,
+    url("img/hoorueen.jpg") no-repeat, url("img/hoorueen.jpg") no-repeat,
+    url("img/hoorueen.jpg") no-repeat, url("img/hoorueen.jpg") no-repeat,
+    url("img/hoorueen.jpg") no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-blend-mode: hard-light;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+  overflow: hidden;
+  filter: drop-shadow(0 0.2rem 0.2rem rgba(0, 0, 0, 0.8));
+  border-radius: 50px;
+}
+a {
+  z-index: 10;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #666b1c;
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #c0c576;
+}
+strong {
+  font-size: 1.5rem;
+}
